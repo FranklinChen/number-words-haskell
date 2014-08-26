@@ -1,4 +1,4 @@
-module NumberWordsSpec where
+module NumberWordsSpec (main, spec) where
 
 import Test.Hspec
 
@@ -9,4 +9,4 @@ spec :: Spec
 spec = do
   describe "NumberWords" $ do
     it "junk" $ do
-      2+2 `shouldBe` 4
+      True `shouldBe` True
